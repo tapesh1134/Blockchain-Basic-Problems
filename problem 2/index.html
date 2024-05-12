@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Problem statement 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Problem statement 2</h1>
+        <label for="address">Enter addresses:</label><br>
+        <h1> </h1>
+        <input type="text" id="c_address" name="address" placeholder="Token address" />
+        <input type="text" id="address" name="address" placeholder="address" /><br>
+        <h1> </h1>
+        <button onclick="lookup()">Lookup</button>
+        <h1> </h1>
+        <div id="token-list">
+            <table>
+                <thead>
+                    <th>Token address</th>
+                    <th>address</th>
+                    <th>holding</th>
+                </thead>
+                <tbody id="t_list"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
